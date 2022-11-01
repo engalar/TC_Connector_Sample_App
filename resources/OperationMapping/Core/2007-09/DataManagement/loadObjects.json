@@ -1,0 +1,10 @@
+{
+  "ServiceOperation": "Core-2007-09-DataManagement/loadObjects",
+  "InputType": "Core_2007_09_DataManagement.LoadObjectsInput",
+  "ResponseType": "Core_2007_09_DataManagement.LoadObjectsResponse",
+  "ObjectMapping": "",
+  "OperationInput": {
+    "uids": "$Input\/Core_2007_09_DataManagement.LoadObjectsInput_StringObject\/value;AttributeAsArray"
+  },
+  "OperationResponse": {}
+}

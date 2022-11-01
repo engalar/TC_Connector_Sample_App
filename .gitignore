@@ -1,1 +1,3 @@
 deployment
+javasource/*/proxies
+.mendix-cache
