@@ -1,0 +1,22 @@
+{
+	"ServiceOperation": "Core-2007-01-DataManagement/whereReferenced",
+	"InputType": "Testing.whereReferencedInput",
+	"ResponseType": "Testing.whereReferencedResponse",
+	"ObjectMapping": "",
+	
+	"OperationInput": 
+	{
+		"objects": ["$Input\/Testing.whereReferencedInput_ListOfModelObject/TcConnector.ListOfModelObjects"],
+		"numLevels": 1,
+
+	},
+	"OperationResponse": 
+	{
+		output:
+		[
+			{
+				"info": "$Response\/Testing.info"
+			}
+		],
+	}
+}

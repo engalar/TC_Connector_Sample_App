@@ -1,0 +1,8 @@
+{
+    "ServiceOperation": "Test-2007-01-TestService\/fooOperation",
+    "InputType":        "",
+    "ResponseType":     "TcConnector.ServiceResponse",
+    "ObjectMapping":    "BOMLine=TcConnector.BOMLine;ItemRevision=TcConnector.ItemRevision",
+    "OperationInput":   {},
+    "OperationResponse": "$Response\/TcConnector.ResponseData"
+}

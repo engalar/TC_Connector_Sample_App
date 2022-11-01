@@ -1,0 +1,13 @@
+{
+    "ServiceOperation": "Cad-2007-01-StructureManagement/getRevisionRules",
+    "InputType":        "",
+    "ResponseType":     "TcConnector.GetRevisionRulesResponse",
+    "ObjectMapping":    "",
+    "OperationInput":
+    {
+    },
+    "OperationResponse": 
+    {
+        "output":"$Response\/TcConnector.output__GetRevisionRule"
+    }
+}

@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Core-2007-06-LOV/getAttachedLOVs",
+   "InputType":        "TcConnector.GetAttachedLOVInput",
+   "ResponseType":     "TcConnector.ListOfValues",
+   "ObjectMapping":    "ListOfValues=TcConnector.ListOfValues",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "typeName" : "$Input\/typeName",
+            "propNames" : ["$Input\/propertyName"]
+         }
+      ]
+   }
+}

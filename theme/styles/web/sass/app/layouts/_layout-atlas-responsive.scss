@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Atlas layout
+   
+   Extra styling for responsive layouts - PL Refresh
+========================================================================== */
+.layout-atlas-responsive-default {
+    $sidebar-width: 64px;
+
+    @media (min-width: $screen-sm) {
+        .mx-scrollcontainer:not(.mx-scrollcontainer-open) > .region-sidebar {
+            width: $sidebar-width !important;
+        }
+    }
+
+    // Sidebar
+    .region-sidebar {
+        .toggle-btn {
+            width: $sidebar-width;
+            .glyphicon {
+                font-size: 16px;
+            }
+        }
+        .mx-scrollcontainer-wrapper > .mx-navigationtree {
+            .navbar-inner > ul > li {
+                & > a {
+                    height: 48px;
+                    // Glyph icon
+                    .glyphicon {
+                        width: 48px;
+                        height: 48px;
+                    }
+                }
+                & > a.active {
+                    // Glyph icon
+                    .glyphicon {
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ServiceOperation": "Core-2007-01-Session\/getTCSessionInfo",
+    "InputType":        "",
+    "ResponseType":     "TcConnector.TcServerInformation",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+    },
+    "OperationResponse": "$Response"
+}
+
+

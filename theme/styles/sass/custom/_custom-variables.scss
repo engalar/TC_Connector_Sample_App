@@ -1,0 +1,439 @@
+/* Copyright 2018 Siemens Product Lifecycle Management Software Inc. */
+
+/*
+  APOLLO PRIMARY COLORS
+*/
+
+// BLACK
+$PL_Black: #000000;
+$PL_Black_2: #0a0a0a;
+$PL_Black_4: #1e1e1e;
+$PL_Black_5: #282828;
+$PL_Black_6: #323232;
+$PL_Black_7: #3c3c3c;
+$PL_Black_8: #464646;
+$PL_Black_9: #505050;
+$PL_Black_10: #5a5a5a;
+$PL_Black_12: #6e6e6e;
+$PL_Black_13: #787878;
+$PL_Black_16: #969696;
+$PL_Black_18: #aaaaaa;
+$PL_Black_20: #bebebe;
+$PL_Black_22: #d2d2d2;
+$PL_Black_23: #dcdcdc;
+$PL_Black_24: #e6e6e6;
+$PL_Black_25: #f0f0f0;
+$PL_Black_26: #fafafa;
+// GREEN
+$PL_Green_24: #edfbf5;
+// STONE
+$Siemens_Stone_25: #f5f7fa;
+// WHITE
+$Siemens_Snow: #ffffff;
+// BLUE
+$Siemens_Blue_1: #003750;
+$Siemens_Blue_3: #004669;
+$Siemens_Blue_7: #005f87;
+$Siemens_Blue_9: #0f789b;
+$Siemens_Blue_10: #197fa2;
+$Siemens_Blue_11: #2387aa;
+$Siemens_Blue_12: #2a8eb1;
+$Siemens_Blue_13: #3296b9;
+$Siemens_Blue_14: #39a0c0;
+$Siemens_Blue_17: #50bed7;
+$Siemens_Blue_20: #93dced;
+$Siemens_Blue_24: #e3faff;
+$Siemens_Blue_Dark_Old: #006487;
+$Siemens_Blue_Light_Old: #55a0b9;
+$Siemens_Blue_8_5_Old: #a3d0dc;
+$Siemens_Blue_9_Old: #afd7e1;
+$Siemens_Blue_9_5_Old: #daecf0;
+$Siemens_Blue_10_Old: #cde6eb;
+// YELLOW
+$Siemens_Yellow_5: #b44b28;
+$Siemens_Yellow_9: #dc6914;
+$Siemens_Yellow_10: #e3700f;
+$Siemens_Yellow_11: #eb780a;
+$Siemens_Yellow_17: #ffb900;
+$Siemens_Yellow_19: #ffcd50;
+$Siemens_Yellow_20: #ffd764;
+// STATUS COLORS
+$Siemens_Status_Yellow: $Siemens_Yellow_11;
+$Siemens_Status_Green: #0a9b00;
+$Siemens_Status_Red: #dc0000;
+// NEW VARS
+$Natural_Blue_5: #2882ad;
+$Natural_Blue_6: #3c91af;
+/*
+  END APOLLO PRIMARY COLORS
+*/
+
+
+//== Gray Shades
+//## Different gray shades to be used for our variables and components
+$gray-darker:                                       #222222;
+$gray-dark:                                         #333333;
+$gray:                                              #555555;
+$gray-light:                                        #888888;
+$gray-primary:                                      $PL_Black_23;
+$gray-lighter:                                      #EEEEEE;
+
+//== Step 1: Brand Colors
+$brand-default:                                     #fff;
+$brand-primary:                                     $Siemens_Blue_7;
+$brand-inverse:                                     $Siemens_Blue_1;
+$brand-info:                                        $Siemens_Blue_7;
+$brand-success:                                     $Siemens_Status_Green;
+$brand-warning:                                     $Siemens_Yellow_11;
+$brand-danger:                                      $Siemens_Status_Red;
+
+// Used for other variables
+$default-border-color:                              $gray-primary;
+
+//== Step 3: Typography
+$font-family-import:                                "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+$font-family-base:                                  'Segoe UI','Open Sans',Verdana,Arial,Helvetica,sans-serif;
+$font-base-color:                                   $PL_Black_8;
+
+// Default Link Color
+$link-color:                                        $brand-primary;
+$link-hover-color:                                  $Siemens_Yellow_10;
+$link-active-color:                                 $link-color;
+$link-inverse-color:                                #fff;
+$link-inverse-hover-color:                          $Siemens_Yellow_19;
+$link-inverse-active-color:                         $link-inverse-color;
+
+$ratio: 1.2;
+
+// Font Sizes
+$font-base-size:                                    12px;
+
+$font-size-large:                                   $font-base-size * $ratio;
+$font-size-extralarge:                              $font-size-large * $ratio;
+$font-size-small:                                   $font-base-size * (1 / $ratio);
+$font-size-extrasmall:                              $font-size-small * (1 / $ratio);
+
+
+// Font Weights
+$font-weight-light:                                 100;
+$font-weight-normal:                                normal;         
+$font-weight-semibold:                              600;
+$font-weight-bold:                                  bold; 
+
+// Font Size Headers
+$font-size-h6:                                      $font-base-size;
+$font-size-h5:                                      $font-size-h6 * $ratio;
+$font-size-h4:                                      $font-size-h5 * $ratio;
+$font-size-h3:                                      $font-size-h4 * $ratio;
+$font-size-h2:                                      $font-size-h3 * $ratio;
+$font-size-h1:                                      $font-size-h2 * $ratio;
+
+
+// Font Weight Headers
+$font-weight-header:                                $font-weight-semibold;
+
+// Line Height
+$line-height-base:                                  1.32;
+
+// Spacing
+$font-header-margin:					                      0 0 24px 0;
+
+// Text Colors
+$font-color-headers:				                        $PL_Black_4;
+$font-color-detail:                                 $PL_Black_8;
+
+//== Step 2: UI Customization
+
+// Selection Background Colors
+$bg-color-hover:                                    $Siemens_Blue_9_5_Old;
+$bg-color-active:                                   $Siemens_Blue_9_Old;
+$bg-color-selected:                                 $Siemens_Blue_10_Old;
+$bg-color-selected-hover:                           $Siemens_Blue_8_5_Old;
+
+// Global Border Color
+$border-color-default:                              $PL_Black_23;
+$border-radius-default:                             3px !default;
+
+// Topbar
+$topbar-bg:                                         transparent;
+$navtopbar-border-color:                            transparent;
+$topbar-border-color:                               transparent;
+$topbar-minimalheight:                              43px;
+$navtopbar-color:                                   $font-base-color;
+$navbar-brand-name:                                 #FFF;
+$brand-logo:                                        false;
+$brand-logo-height:                                 30px;
+$brand-logo-width:                                  30px;
+
+// Sidebar
+$sidebar-bg:                                        transparent;
+$navsidebar-color:                                  #FFFFFF;
+$navsidebar-color-hover:                            $navsidebar-color;
+
+// Backgrounds
+$bg-color:                                          #FFFFFF;
+$bg-color-secondary:                                $PL_Black_25;
+$brand-gradient:  radial-gradient(ellipse farthest-side at 75% top, #55a0b9 -100%, #0077a1 40%, #006b91 75%, #006487 100%);                                  
+
+// == Old variables used in theme customizer to the new lib variables
+$font-size-default:                                 $font-base-size;
+$font-color-default:                                $font-base-color;
+$border-color-default:                              $default-border-color;
+$font-color-header:				                    $font-color-headers;
+
+
+//== Navigation
+//## Used in components/navigation
+
+// // Default Navigation styling
+$navigation-item-height:                48px;
+$navigation-item-padding:               5px 15px;
+
+$navigation-font-size:                  $font-size-default;
+$navigation-sub-font-size:              $font-size-small;
+$navigation-glyph-size:                 24px; // For glyphicons that you can select in the Mendix Modeler
+
+$navigation-bg:                         transparent;
+$navigation-bg-hover:                   $Siemens_Blue_9_5_Old;
+$navigation-bg-active:                  $Siemens_Blue_10_Old; // pressed
+$navigation-bg-selected:                $Siemens_Blue_9_Old; // legacy 'active'
+$navigation-color:                      $PL_Black_8;
+$navigation-color-hover:                $PL_Black_8;
+$navigation-color-active:               $PL_Black_8;
+$navigation-color-selected:             $PL_Black_8;
+
+$navigation-sub-bg:                     darken($navigation-bg, 4);
+$navigation-sub-bg-hover:               $Siemens_Blue_9_5_Old;
+$navigation-sub-bg-active:              $Siemens_Blue_10_Old; // pressed
+$navigation-sub-bg-selected:            $Siemens_Blue_9_Old; // legacy 'active'
+$navigation-sub-color:                  $PL_Black_8;
+$navigation-sub-color-hover:            $PL_Black_8;
+$navigation-sub-color-active:           $PL_Black_8;
+$navigation-sub-color-selected:         $PL_Black_8;
+$navigation-sub-border-color:           $PL_Black_23;
+$navigation-sub-box-shadow:             0 3px 6px 0 rgba($PL_Black, 0.3);
+
+$navigation-border-color:               $navigation-bg-hover;
+
+$navigationtree-sub-box-shadow:         8px 0 16px 0 rgba($PL_Black, 0.3);
+
+// Navigation Sidebar
+$navsidebar-font-size:                  $font-size-large;
+$navsidebar-sub-font-size:              $font-size-default;
+$navsidebar-glyph-size:                 24px; // For glyphicons that you can select in the Mendix Modeler
+
+$navsidebar-bg:                         $sidebar-bg;
+$navsidebar-bg-hover:                   $Natural_Blue_5;
+$navsidebar-bg-active:                  $Natural_Blue_6; // pressed
+$navsidebar-bg-selected:                $Siemens_Blue_1; // legacy 'active'               
+$navsidebar-color:                      #FFF;
+$navsidebar-color-hover:                #FFF;
+$navsidebar-color-active:               #FFF;
+$navsidebar-color-selected:             #FFF;
+
+$navsidebar-sub-bg:                     $Siemens_Blue_3;
+$navsidebar-sub-bg-hover:               $navsidebar-sub-bg;
+$navsidebar-sub-bg-active:              $navsidebar-sub-bg; // pressed
+$navsidebar-sub-bg-selected:            $navsidebar-sub-bg; // legacy 'active' 
+$navsidebar-sub-color:                  #FFF;
+$navsidebar-sub-color-hover:            $Siemens_Yellow_19;
+$navsidebar-sub-color-active:           #FFF; // pressed
+$navsidebar-sub-color-selected:         $Siemens_Yellow_19; // legacy 'active' 
+
+$navsidebar-border-color:               $navsidebar-bg-hover;
+
+// Navigation topbar
+// $navtopbar-font-size:                   $font-size-default;
+// $navtopbar-sub-font-size:               $font-size-small;
+// $navtopbar-glyph-size:                  1.2em; // For glyphicons that you can select in the Mendix Modeler
+
+// $navtopbar-bg:                          $topbar-bg;
+// $navtopbar-bg-hover:                    darken($navtopbar-bg, 4);
+// $navtopbar-bg-active:                   darken($navtopbar-bg, 8);
+// $navtopbar-color:                       $font-color-default;
+// $navtopbar-color-hover:                 $navtopbar-color;
+// $navtopbar-color-active:                $navtopbar-color;
+
+// $navtopbar-sub-bg:                      lighten($navtopbar-bg, 4);
+// $navtopbar-sub-bg-hover:                $navtopbar-sub-bg;
+// $navtopbar-sub-bg-active:               $navtopbar-sub-bg;
+// $navtopbar-sub-color:                   #AAA;
+// $navtopbar-sub-color-hover:             $brand-primary;
+// $navtopbar-sub-color-active:            #FFF;
+
+//## Used in layouts/base
+$navtopbar-border-color:                $topbar-border-color;
+
+//== Form
+//## Used in components/inputs
+
+// Values that can be used default | lined 
+$form-input-style:                      default !default;
+
+// Form Label  
+$form-label-color:                      $PL_Black_4;
+$form-label-disabled-color:             $PL_Black_18;         
+$form-label-size:                       $font-size-default !default; // this is font size  
+$form-label-weight:                     $font-weight-semibold !default;             
+
+// Form Input dimensions
+$form-input-height:                     auto !default;
+$form-input-padding-y:                  8px;
+$form-input-padding-x:                  8px;
+$form-input-font-size:                  $form-label-size !default;
+$form-input-line-height:                $line-height-base !default;
+$form-input-border-radius:              $border-radius-default !default;
+
+// Form Input styling
+$form-input-bg:                         #FFF !default;
+$form-input-bg-focus:                   #FFF !default;
+$form-input-bg-disabled:                $PL_Black_25;
+$form-input-color:                      $font-color-default !default;
+$form-input-focus-color:                $form-input-color !default;
+$form-input-disabled-color:             $PL_Black_25;
+$form-input-placeholder-color:          $PL_Black_18;
+$form-input-border-color:               $PL_Black_16;
+$form-input-border-disabled-color:      $PL_Black_18;
+$form-input-border-focus-color:         $Siemens_Blue_13;
+$form-input-box-shadow:                0 1px 2px 0 rgba($PL_Black, 0.3);
+$form-input-box-shadow-hover:          0 3px 6px 0 rgba($PL_Black, 0.3);
+$form-input-box-shadow-focus:          $form-input-box-shadow-hover;
+
+// Form Input Static styling
+$form-input-static-border-color:		   #F0F0EE !default;
+
+// Form Group
+$form-group-margin-bottom:              15px !default;
+$form-group-gutter:                     15px !default;
+
+//== Buttons
+//## Define background-color, border-color and text. Used in components/buttons
+
+// Default button style 
+$btn-font-size:                         12px;
+$btn-bordered:                          false !default; // Default value false, set to true if you want this effect
+$btn-border-radius:                     2px; 
+
+// Button Background Color
+$btn-default-bg:                        transparent;
+$btn-inverse-bg:                        $Siemens_Yellow_9; // for dark bg
+$btn-primary-bg:                        $brand-primary !default;
+$btn-info-bg:                           $brand-info !default;
+$btn-success-bg:                        $brand-success !default;
+$btn-warning-bg:                        $brand-warning !default;
+$btn-danger-bg:                         $brand-danger !default;
+
+// Button Border Color
+$btn-default-border-color:              mix($btn-default-bg, black, 93%);
+$btn-inverse-border-color:              $Siemens_Yellow_5;
+$btn-primary-border-color:              mix($btn-primary-bg, black, 93%);
+$btn-info-border-color:                 mix($btn-info-bg, black, 93%);
+$btn-success-border-color:              mix($btn-success-bg, black, 93%);
+$btn-warning-border-color:              mix($btn-warning-bg, black, 93%);
+$btn-danger-border-color:               mix($btn-danger-bg, black, 93%);
+
+// Button Text Color
+$btn-default-color:                     $PL_Black_8;
+$btn-inverse-color:                     #FFF !default; // for dark bg
+$btn-primary-color:                     #FFF !default;
+$btn-info-color:                        #FFF !default;
+$btn-success-color:                     #FFF !default;
+$btn-warning-color:                     #FFF !default;
+$btn-danger-color:                      #FFF !default;
+
+// Button Background Color
+$btn-default-bg-hover:                  $btn-default-border-color;
+$btn-inverse-bg-hover:                  $btn-inverse-border-color;
+$btn-primary-bg-hover:                  $btn-primary-border-color;
+$btn-info-bg-hover:                     $btn-info-border-color;
+$btn-success-bg-hover:                  $btn-success-border-color;
+$btn-warning-bg-hover:                  $btn-warning-border-color;
+$btn-danger-bg-hover:                   $btn-danger-border-color;
+$btn-link-bg-hover:                     $gray-lighter !default;
+
+// Button Box Shadow
+$btn-button-box-shadow:                 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+$btn-button-box-shadow-active:          0 3px 6px 0 rgba(0, 0, 0, 0.3);
+
+//== Grids
+//## Used for Datagrid, Templategrid, Listview & Tables (see components folder)
+
+// Default Border Colors
+$grid-border-color:                     $border-color-default !default;
+
+// Spacing
+// Default
+$grid-padding-top:                      7px !default;                   
+$grid-padding-right:                    15px !default;    
+$grid-padding-bottom:                   8px !default;    
+$grid-padding-left:                     15px !default;      
+
+// Background Colors
+$grid-bg:                               #FFF !default;
+$grid-bg-header:                        $PL_Black_24; // Grid Headers
+$grid-bg-hover:                         $bg-color-hover;
+$grid-bg-active:                        $bg-color-active;
+$grid-bg-selected:                      $bg-color-selected;    
+$grid-bg-selected-hover:                $bg-color-selected-hover;
+
+// Striped Background Color
+$grid-bg-striped:                       mix($grid-border-color, #FFF, 10%) !default;
+
+// Background Footer Color
+$grid-footer-bg:                        $gray-primary !default;
+
+// Text Color
+$grid-selected-color:                   $font-color-default !default;
+
+// Paging Colors
+$grid-paging-bg:                        transparent !default;
+$grid-paging-bg-hover:                  transparent !default;
+$grid-paging-border-color:              transparent !default;
+$grid-paging-border-color-hover:        transparent !default;
+$grid-paging-color:                     $gray-light !default;
+$grid-paging-color-hover:               $brand-primary !default;
+
+// Listview
+$listview-padding-top:                  16px;                   
+$listview-padding-right:                16px;    
+$listview-padding-bottom:               16px;    
+$listview-padding-left:                 16px;
+$listview-bg-hover:                     $bg-color-hover;  
+
+//== Tabs
+//## Default variables for Tab Container Widget (used in components/tabcontainer)
+
+// Text Color
+$tabs-color:                            $font-color-detail !default;
+$tabs-color-active:                     $font-color-default !default; // selected state
+$tabs-color-pressed:                    $Siemens_Blue_14;
+$tabs-lined-color-active:               $brand-primary !default;
+
+// Border Color
+$tabs-border-color:                     $border-color-default !default;    
+$tabs-lined-border-color:               $brand-primary !default;    
+
+// Background Color
+$tabs-bg:                               #FFF !default;
+$tabs-bg-hover:                         lighten($tabs-border-color,5) !default;
+$tabs-bg-active:                        $brand-primary !default;
+
+// Range Slider
+$range-slider-rail-bg:                  $PL_Black_22;
+
+
+/*
+// Selection Background Colors
+$bg-color-hover:                                    $Siemens_Blue_9_5_Old;
+$bg-color-active:                                   $Siemens_Blue_9_Old;
+$bg-color-selected:                                 $Siemens_Blue_10_Old;
+$bg-color-selected-hover:                           $Siemens_Blue_8_5_Old;
+
+// Default Link Color
+$link-color:                                        $brand-primary;
+$link-hover-color:                                  $Siemens_Yellow_10;
+$link-active-color:                                 $link-color;
+$link-inverse-color:                                #fff;
+$link-inverse-hover-color:                          $Siemens_Yellow_19;
+$link-inverse-active-color:                         $link-inverse-color;
+*/

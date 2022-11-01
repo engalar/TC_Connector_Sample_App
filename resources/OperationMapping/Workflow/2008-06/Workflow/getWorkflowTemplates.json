@@ -1,0 +1,16 @@
+{
+    "ServiceOperation": "Workflow-2008-06-Workflow\/getWorkflowTemplates",
+    "InputType":        "TcConnector.GetWorkflowTemplatesInput",
+    "ResponseType":     "TcConnector.GetWorkflowTemplatesResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"targets": ["$Input\/TcConnector.targets"],
+		"allOrAssignedCriteria": "$Input\/allOrAssignedCriteria"
+		
+    },
+    "OperationResponse": 
+    {
+        "workflowTemplates": "$Response\/TcConnector.workflowTemplates"
+    }
+}

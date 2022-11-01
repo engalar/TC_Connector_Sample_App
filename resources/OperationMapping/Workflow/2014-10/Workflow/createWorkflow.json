@@ -1,0 +1,25 @@
+{
+    "ServiceOperation": "Workflow-2014-10-Workflow\/createWorkflow",
+    "InputType":        "TcConnector.CreateWorkflowInput",
+    "ResponseType":     "TcConnector.CreateWorkflowResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"input":
+				{
+					"processName": "$Input\/processName",
+					"processDescription": "$Input\/processDescription",
+					"processTemplate":"$Input\/processTemplate",
+					"workflowOwner": "$Input\/TcConnector.workflowOwner",
+					"responsibleParty": "$Input\/TcConnector.responsibleParty",
+					"assignedUserList": ["$Input\/TcConnector.assignedUser"],
+					"dueDate": "$Input\/dueDate",
+					"attachments": ["$Input\/TcConnector.attachments"],
+					"attachmentRelationTypes": "$Input\/TcConnector.relationTypes\/attachmentRelationTypes;AttributeAsArray"
+				}
+    },
+    "OperationResponse": 
+    {
+        "workflowTask": "$Response\/TcConnector.workflowTask"
+    }
+}

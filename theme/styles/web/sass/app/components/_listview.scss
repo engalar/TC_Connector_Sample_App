@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Listview - PLM Edit
+
+   Default Mendix Listview Widget. The list view shows a list of objects arranged vertically. Each object is shown using a template
+========================================================================== */
+
+.mx-listview {
+    .mx-listview-item {
+        @include transition();
+        padding: $listview-padding-top $listview-padding-right $listview-padding-bottom $listview-padding-left;
+        border-width: 1px 0 0;
+        border-style: solid;
+        border-color: $grid-border-color;
+        background-color: $grid-bg;
+
+        &:first-child {
+            border-radius: 0; // Reset mxui listview style
+        }
+        &:last-child {
+            border-bottom: 1px solid $grid-border-color;
+            border-radius: 0; // Reset mxui listview style
+        }
+        &:nth-child(2n + 1) {
+            background-color: $grid-bg;
+        }
+        &:hover {
+            background-color:  $bg-color-hover;
+        }
+        &:focus,
+        &:active {
+            background-color: $bg-color-active;
+        }
+        &.selected {
+            background-color: $bg-color-selected !important;
+        }
+        .flexitem.listview-left {
+            margin-right: 8px;
+        }
+    }
+    .mx-listview-searchbar {
+        .mx-button {
+            margin: 4px 0 0;
+        }
+        .mx-listview-search-input {
+            padding: 2px 4px 8px;
+        }
+    }
+}
+
+/*
+$grid-bg-hover:                         $bg-color-hover;
+$grid-bg-active:                        $bg-color-active;
+$grid-bg-selected:                      $bg-color-selected;    
+$grid-bg-selected-hover:                $bg-color-selected-hover;
+*/

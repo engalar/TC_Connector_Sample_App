@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Buttons - PLM Edit
+
+   PL Refresh
+========================================================================== */
+
+.btn,
+.mx-button {
+    box-shadow: $btn-button-box-shadow;
+    padding: 6px 16px;
+    &:hover,
+    &:focus {
+        box-shadow: $btn-button-box-shadow;
+    }
+    &:active,
+    &:active:focus {
+        box-shadow: $btn-button-box-shadow-active;
+    }
+    &.mx-fileinput-upload-button {
+        // ripple() mixin override to fix upload
+        position: static;
+        transform: none;
+    }
+}
+
+.region-sidebar {
+    .btn,
+    .mx-button {
+        box-shadow: none;
+        &:hover,
+        &:focus,
+        &:active,
+        &:active:focus {
+            box-shadow: none;
+        }
+    }
+}
+.mx-link {
+    &.toggle-btn {
+        color: $link-inverse-color;
+    }
+}

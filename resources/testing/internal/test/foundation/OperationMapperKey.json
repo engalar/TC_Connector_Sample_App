@@ -1,0 +1,11 @@
+{
+    "ServiceOperation": "Test-2007-01-TestService\/fooOperation",
+    "InputType":        "Testing.Testing.Test_SimpleAttributes",
+    "ResponseType":     "",
+    "ObjectMapping":    "",
+    "OperationInput":
+    {
+        "$Input\/Text": "$Input"
+    },
+    "OperationResponse": {}
+}

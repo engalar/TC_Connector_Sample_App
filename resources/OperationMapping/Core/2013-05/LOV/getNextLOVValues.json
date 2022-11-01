@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Core-2013-05-LOV/getNextLOVValues",
+   "InputType":        "TcConnector.LOVDataEntity",
+   "ResponseType":     "TcConnector.GetLOVValuesResponse",
+   "ObjectMapping":    "",
+   "OperationResponse" : {
+      "lovValues" : "$Response\/TcConnector.lovValues",
+      "lovData" : "$Response\/TcConnector.lovData"
+   },
+   "OperationInput" : {
+      "lovData" : "$Input"
+   }
+}

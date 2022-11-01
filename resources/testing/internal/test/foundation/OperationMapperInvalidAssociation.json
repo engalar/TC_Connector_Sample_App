@@ -1,0 +1,17 @@
+{
+    "ServiceOperation": "Test-2007-01-TestService\/fooOperation",
+    "InputType":        "Testing.Testing.Test_CreateBOMWindow",
+    "ResponseType":     "TcConnection.BOMLine",
+    "ObjectMapping":    "BOMLine=TcConnector.BOMLine;ItemRevision=TcConnector.ItemRevision",
+    "OperationInput":
+    {
+        "info":
+        {
+           "item": "$Input\/Testing.itemRevXXX\/item_id"
+        }
+    },
+    "OperationResponse": 
+    {
+        "output":"$Response"
+    }
+}

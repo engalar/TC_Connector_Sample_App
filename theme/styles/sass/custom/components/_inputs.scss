@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Inputs - PLM Edit
+
+   The form-control class style all inputs
+========================================================================== */
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: $form-input-height;
+    padding: $form-input-padding-y $form-input-padding-x;
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    color: $form-input-color;
+    border: 1px solid $form-input-border-color;
+    border-radius: $form-input-border-radius;
+    background-color: $form-input-bg;
+    background-image: none;
+    -webkit-box-shadow: $form-input-box-shadow;
+    box-shadow: $form-input-box-shadow;
+    font-size: $form-input-font-size;
+    line-height: $form-input-line-height;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    &:hover {
+        -webkit-box-shadow: $form-input-box-shadow-hover;
+        box-shadow: $form-input-box-shadow-hover;
+    }
+    &:disabled {
+        background: $form-input-bg-disabled;
+        border-color: $form-input-border-disabled-color;
+    }
+}
+
+.form-control:focus {
+    border-color: $form-input-border-focus-color;
+    outline: none;
+    color: $form-input-focus-color;
+    background-color: $form-input-bg-focus;
+    -webkit-box-shadow: $form-input-box-shadow-focus;
+    box-shadow: $form-input-box-shadow-focus;
+}

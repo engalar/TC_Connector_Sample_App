@@ -1,0 +1,180 @@
+/* ==========================================================================
+   Navigation - PLM Edit
+
+========================================================================== */
+.mx-navigationtree {
+    background-color: $navigation-bg;
+
+    /* Every navigation item */
+    .navbar-inner>ul {
+        &>li a {
+            &:hover,
+            &:focus,
+            &.active {
+                color: $navigation-color-hover;
+                background-color: $navigation-bg-hover;
+                .caret {
+                    border-top-color: $navigation-color-selected;
+                    border-bottom-color: $navigation-color-selected;
+                }
+            }
+            &.active {
+                color: $navigation-color-selected;
+                background-color: $navigation-bg-selected;
+            }
+            &:active {
+                color: $navigation-color-active;
+                background-color: $navigation-bg-active;
+            }
+        }
+    }
+
+    /* Sub navigation item specific */
+    li.mx-navigationtree-has-items {
+        &>ul {
+            li {
+                a {
+                    &:hover,
+                    &:focus {
+                        color: $navigation-sub-color-hover;
+                        background-color: $navigation-sub-bg-hover;
+                    }
+                    &:active { // pressed
+                        color: $navigation-sub-color-active;
+                        background-color: $navigation-sub-bg-active;
+                    }
+                    &.active { // selected
+                        color: $navigation-sub-color-selected;
+                        background-color: $navigation-sub-bg-selected;
+                    }
+                }
+            }
+        }
+    }
+
+    /* remove focus */
+    &:focus {
+        outline: none;
+    }
+}
+
+//== Regions
+//## Behavior in the different regions
+//-------------------------------------------------------------------------------------------------------------------//
+// When used in topbar
+.region-topbar {
+    .mx-navigationtree {
+        background-color: $navtopbar-bg;
+        .navbar-inner > ul {
+            & > li {
+                & > a {
+                    color: $navtopbar-color;
+                    border-color: $navtopbar-border-color;
+                    background-color: $navtopbar-bg;
+                    font-size: $navtopbar-font-size;
+                    .caret {
+                        border-top-color: $navtopbar-color;
+                        border-bottom-color: $navtopbar-color;
+                    }
+
+                    .glyphicon {
+                        font-size: $navtopbar-glyph-size;
+                    }
+                }
+                a:hover,
+                a:focus,
+                a.active {
+                    color: $navtopbar-color-hover;
+                    background-color: $navtopbar-bg-hover;
+                    .caret {
+                        border-top-color: $navtopbar-color-active;
+                        border-bottom-color: $navtopbar-color-active;
+                    }
+                }
+                a.active {
+                    color: $navtopbar-color-active;
+                    border-left-color: $navtopbar-color-active;
+                    background-color: $navtopbar-bg-active;
+                }
+            }
+        }
+
+        /* Sub navigation item specific */
+        li.mx-navigationtree-has-items {
+            & > ul {
+                background-color: $navtopbar-sub-bg;
+                li {
+                        color: $navtopbar-sub-color;
+                        background-color: $navtopbar-sub-bg;
+                        font-size: $navtopbar-sub-font-size;
+                        &:hover,
+                        &:focus,
+                        &.active {
+                            color: $navtopbar-sub-color-hover;
+                            background-color: $navtopbar-sub-bg-hover;
+                        }
+                        &.active {
+                            color: $navtopbar-sub-color-active;
+                            background-color: $navtopbar-sub-bg-active;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+// When used in sidebar
+.region-sidebar {
+    .mx-navigationtree {
+        .navbar-inner>ul {
+            &>li a {
+                padding: 0 14px;
+                border-bottom-color: transparent;
+                &:hover,
+                &:focus,
+                &.active {
+                    color: $navsidebar-color-hover;
+                    background-color: $navsidebar-bg-hover;
+                    .caret {
+                        border-top-color: $navsidebar-color-selected;
+                        border-bottom-color: $navsidebar-color-selected;
+                    }
+                }
+                &.active {
+                    color: $navsidebar-color-selected;
+                    background-color: $navsidebar-bg-selected;
+                }
+                &:active {
+                    color: $navsidebar-color-active;
+                    background-color: $navsidebar-bg-active;
+                }
+            }
+        }
+        /* Sub navigation item specific */
+        li.mx-navigationtree-has-items {
+            &>ul {
+                padding: 16px;
+                box-shadow: 8px 0 16px rgba(0, 0, 0, 0.30);
+                li {
+                    a {
+                        padding: 6px 0;
+                        &:hover,
+                        &:focus,
+                        &.active {
+                            color: $navsidebar-sub-color-hover;
+                            background-color: $navsidebar-sub-bg-hover;
+                        }
+                        &.active {
+                            color: $navsidebar-sub-color-selected;
+                            background-color: $navsidebar-sub-bg-selected;
+                        }
+                        &:active {
+                            color: $navsidebar-sub-color-active;
+                            background-color: $navsidebar-sub-bg-active;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

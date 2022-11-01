@@ -1,0 +1,287 @@
+/* ==========================================================================
+   Glyphicons
+
+   Glyphicons altered to use with PL UI Resources
+========================================================================== */
+
+.glyphicon-plus:before {
+    font-family: "pl-icons";
+    content: "\e901";
+}
+
+.glyphicon-book:before {
+    font-family: "pl-icons";
+    content: "\e940";
+}
+
+.glyphicon-file:before {
+    font-family: "pl-icons";
+    content: "\e941";
+}
+
+.glyphicon-cog:before {
+    font-family: "pl-icons";
+    content: "\e943";
+}
+
+.glyphicon-dashboard:before {
+    font-family: "pl-icons";
+    content: "\e902";
+}
+
+.glyphicon-home:before {
+    font-family: "pl-icons";
+    content: "\e91a";
+}
+
+.glyphicon-user:before {
+    font-family: "pl-icons";
+    content: "\e93e";
+}
+
+.glyphicon-folder-open:before {
+    font-family: "pl-icons";
+    content: "\e903";
+}
+
+.glyphicon-menu-hamburger:before {
+   font-family: "pl-icons";
+    content: "\e921";
+} 
+
+/* PL */
+.pl-icon-cmdParts24:before {
+    content: "\e942";
+}
+
+.pl-icon-cmdSettings16:before {
+    content: "\e906";
+}
+
+.pl-icon-cmdApproved24:before {
+    content: "\e938";
+}
+
+.pl-icon-cmdClarification24:before {
+    content: "\e939";
+}
+
+.pl-icon-cmdPending24:before {
+    content: "\e93a";
+}
+
+.pl-icon-cmdRejected24:before {
+    content: "\e93b";
+}
+
+.pl-icon-cmdApprovedWithQuestion24:before {
+    content: "\e93c";
+}
+
+.pl-icon-cmdSave24:before {
+    content: "\e934";
+}
+
+.pl-icon-cmdTrash24:before {
+    content: "\e935";
+}
+
+.pl-icon-cmdAdd24:before {
+    content: "\e900";
+}
+
+.pl-icon-cmdAge24:before {
+    content: "\e904";
+}
+
+.pl-icon-cmdAttach24:before {
+    content: "\e905";
+}
+
+.pl-icon-cmdBrowser24:before {
+    content: "\e907";
+}
+
+.pl-icon-cmdBuildTested24:before {
+    content: "\e908";
+}
+
+.pl-icon-cmdDelete24:before {
+    content: "\e933";
+}
+
+.pl-icon-cmdChevron24:before {
+    content: "\e909";
+}
+
+.pl-icon-cmdChevronDown24:before {
+    content: "\e90a";
+}
+
+.pl-icon-cmdChevronLeft24:before {
+    content: "\e90b";
+}
+
+.pl-icon-cmdChevronUp24:before {
+    content: "\e90c";
+}
+
+.pl-icon-cmdCloseLite24:before {
+    content: "\e90d";
+}
+
+.pl-icon-cmdComment24:before {
+    content: "\e90e";
+}
+
+.pl-icon-cmdDashboard24:before {
+    content: "\e90f";
+}
+
+.pl-icon-cmdDate24:before {
+    content: "\e910";
+}
+
+.pl-icon-cmdDemographics24:before {
+    content: "\e911";
+}
+
+.pl-icon-cmdDeviceTypes24:before {
+    content: "\e912";
+}
+
+.pl-icon-cmdDownload24:before {
+    content: "\e913";
+}
+
+.pl-icon-cmdEdit24:before {
+    content: "\e914";
+}
+
+.pl-icon-cmdExport24:before {
+    content: "\e915";
+}
+
+.pl-icon-cmdFilter24:before {
+    content: "\e916";
+}
+
+.pl-icon-cmdGeneral24:before {
+    content: "\e917";
+}
+
+.pl-icon-cmdGuide24:before {
+    content: "\e918";
+}
+
+.pl-icon-cmdHelp24:before {
+    content: "\e919";
+}
+
+.pl-icon-cmdHoursPerWeek24:before {
+    content: "\e91b";
+}
+
+.pl-icon-cmdIndustry24:before {
+    content: "\e91c";
+}
+
+.pl-icon-cmdInfo24:before {
+    content: "\e91d";
+}
+
+.pl-icon-cmdLock24:before {
+    content: "\e936";
+}
+
+.pl-icon-cmdLogout24:before {
+    content: "\e91e";
+}
+
+.pl-icon-cmdMail24:before {
+    content: "\e91f";
+}
+
+.pl-icon-cmdMailInvite24:before {
+    content: "\e920";
+}
+
+.pl-icon-cmdMinus24:before {
+    content: "\e922";
+}
+
+.pl-icon-cmdMore24:before {
+    content: "\e923";
+}
+
+.pl-icon-cmdNote24:before {
+    content: "\e924";
+}
+
+.pl-icon-cmdOperatingSystem24:before {
+    content: "\e925";
+}
+
+.pl-icon-cmdOptions24:before {
+    content: "\e926";
+}
+
+.pl-icon-cmdPlay24:before {
+    content: "\e927";
+}
+
+.pl-icon-cmdPlus24:before {
+    content: "\e928";
+}
+
+.pl-icon-cmdProductLines24:before {
+    content: "\e929";
+}
+
+.pl-icon-cmdRemove24:before {
+    content: "\e92a";
+}
+
+.pl-icon-cmdShow24:before {
+    content: "\e92b";
+}
+
+.pl-icon-cmdSignout24:before {
+    content: "\e92c";
+}
+
+.pl-icon-cmdStatementGroups24:before {
+    content: "\e92d";
+}
+
+.pl-icon-cmdTask24:before {
+    content: "\e92e";
+}
+
+.pl-icon-cmdTest24:before {
+    content: "\e92f";
+}
+
+.pl-icon-cmdTestCreate24:before {
+    content: "\e930";
+}
+
+.pl-icon-cmdTimesPerWeek24:before {
+    content: "\e931";
+}
+
+.pl-icon-cmdTrendChart24:before {
+    content: "\e932";
+}
+
+.pl-icon-cmdUnlock24:before {
+    content: "\e937";
+}
+
+.pl-icon-cmdUseCase24:before {
+    content: "\e93d";
+}
+
+.pl-icon-cmdUserRole24:before {
+    content: "\e93f";
+}

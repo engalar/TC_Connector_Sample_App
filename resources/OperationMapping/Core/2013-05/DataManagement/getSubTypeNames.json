@@ -1,0 +1,22 @@
+{
+    "ServiceOperation": "Core-2013-05-DataManagement\/getSubTypeNames",
+    "InputType":        "ODataMapping.GetSubTypeNamesInput",
+    "ResponseType":     "ODataMapping.GetSubTypeNamesResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"inBOTypeNames":
+		[{
+				"typeName": "$Input\/TypeName",
+				"contextName": "subtypes",
+				"exclusionPreference": ""
+		}]
+    },
+    "OperationResponse": 
+    {
+        "output":
+		[{
+			"subTypeNames": "$Response\/ODataMapping.GetSubTypeNamesResponse_InterimSubType/ODataMapping.SubType_InterimSubType"
+		}]
+    }
+}

@@ -1,0 +1,23 @@
+{
+	".QName": "http:\/\/teamcenter.com\/Schemas\/Cad\/2007-01\/StructureManagement.CreateBOMWindowsResponse",
+	"output":
+	[{
+			"bomWindow": { "uid": "BOM::34373", "className": "BOMWindow", "type": "BOMWindow" },
+			"bomLine":   { "uid": "SR::N::BOMLine..5.H$gOpCVMenbhdB.LUYsWo5Renb5dD..0", "className": "BOMLine", "type": "BOMLine" }
+		}
+	],
+	"ServiceData": {
+		"modelObjects": {
+			"BOM::34373": 
+			{
+				"uid": "BOM::34373", "className": "BOMWindow", "type": "BOMWindow",
+				"props": { "top_line": { "dbValues": ["SR::N::BOMLine..5.H$gOpCVMenbhdB.LUYsWo5Renb5dD..0"]	} }
+			},
+			"SR::N::BOMLine..5.H$gOpCVMenbhdB.LUYsWo5Renb5dD..0": 
+			{
+				"uid": "SR::N::BOMLine..5.H$gOpCVMenbhdB.LUYsWo5Renb5dD..0", "className": "BOMLine", "type": "BOMLine",
+				"props": { "bl_window": { "dbValues": ["BOM::34373"] } }
+			}
+		}
+	}
+}

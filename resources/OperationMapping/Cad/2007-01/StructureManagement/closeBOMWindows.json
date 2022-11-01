@@ -1,0 +1,16 @@
+{
+    "ServiceOperation": "Cad-2007-01-StructureManagement\/closeBOMWindows",
+    "InputType":        "TcConnector.CloseBOMWindowslInput",
+    "ResponseType":     "",
+    "ObjectMapping":    "",
+    "OperationInput":
+    {
+		"bomWindows": ["$Input\/TcConnector.BOMWindow_CloseBOMWindowslInput"]
+	},
+    "OperationResponse": 
+    {
+       
+    }
+}
+
+

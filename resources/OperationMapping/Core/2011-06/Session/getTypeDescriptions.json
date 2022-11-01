@@ -1,0 +1,17 @@
+{
+    "ServiceOperation": "Core-2011-06-Session\/getTypeDescriptions",
+    "InputType":        "ODataMapping.GetTypeDescriptionsInput",
+    "ResponseType":     "ODataMapping.GetTypeDescriptionsResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"typeNames": "$Input\/TypeNames;AttributeAsArray"
+    },
+    "OperationResponse": 
+    {
+        "types":
+		[{
+			"propertyDescriptors": "$Response\/ODataMapping.GetTypeDescriptionsResponse_InterimProperties/ODataMapping.propertyDescriptors____InterimProperties"
+		}]
+    }
+}

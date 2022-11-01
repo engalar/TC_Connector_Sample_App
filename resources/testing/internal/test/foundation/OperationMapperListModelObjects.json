@@ -1,0 +1,11 @@
+{
+    "ServiceOperation": "Cad-2007-01-StructureManagement\/createBOMWindows",
+    "InputType":        "",
+    "ResponseType":     "TcConnector.ListOfModelObject",
+    "ObjectMapping":    "BOMLine=TcConnector.BOMLine;ItemRevision=TcConnector.ItemRevision",
+    "OperationInput":   {},
+    "OperationResponse": 
+    {
+        "output":[ "$Response\/TcConnector.ListOfModelObjects" ]
+    }
+}

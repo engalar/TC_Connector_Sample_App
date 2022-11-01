@@ -1,0 +1,31 @@
+{
+	"ServiceOperation": "Core-2007-01-DataManagement/getItemFromId",
+	"InputType": "TcConnector.GetItemFromIdInput",
+	"ResponseType": "TcConnector.GetItemFromIdResponse",
+	"ObjectMapping": "",
+	"OperationInput": {
+		"infos": [
+			{
+				"itemId": "$Input\/ItemId",
+				"revIds": "$Input\/TcConnector.revIds\/RevisionIDs;AttributeAsArray;ignoreNull"
+			}
+		],
+		"nRev": "$Input\/NumberOfRevision",
+		"pref": {
+			"prefs": [
+				{
+					"relationTypeName": "$Input\/RelationTypeName",
+					"objectTypeNames": "$Input\/TcConnector.objectTypeNames__\/ObjectTypeNames;AttributeAsArray;ignoreNull"
+				}
+			]
+		}
+	},
+	"OperationResponse": 
+	{
+		"output": 
+		[{
+			"item": "$Response\/TcConnector.Items_GetItemFromIdResponse",
+			"itemRevOutput": "$Response\/TcConnector.itemRevOutput"
+		}]
+	}
+}

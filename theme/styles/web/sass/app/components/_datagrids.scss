@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Datagrid Default - PLM Edit
+
+   Default Mendix Datagrid Widget. The datagrid shows a list of objects in a grid
+========================================================================== */
+
+.mx-datagrid {
+    .mx-datagrid-head-table {
+        .mx-datagrid-head-wrapper {
+            padding: 4px 15px 3px 15px;
+        }
+    }
+    .mx-datagrid-body-table {
+        border-width: 1px;
+        color: $PL_Black_10;
+    }
+}
+
+//== Design Properties
+//## Helper classes to change the look and feel of the component
+//-------------------------------------------------------------------------------------------------------------------//
+
+// Hover style activated
+.datagrid-hover.mx-datagrid {
+    .mx-datagrid-body-table {
+        .mx-datagrid-body tr {
+            &:hover td {
+                background-color: $grid-bg-hover !important;
+            }
+            &:active td {
+                background-color: $grid-bg-active !important;
+            }
+            &.selected:hover td {
+                background-color: $grid-bg-selected-hover !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "ServiceOperation": "Query-2010-04-SavedQuery\/findSavedQueries",
+    "InputType":        "TcConnector.FindSavedQueryInput",
+    "ResponseType":     "TcConnector.FindSavedQueryResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+        "inputCriteria": [{
+                "queryNames": "$Input\/queryNames;AttributeAsArray",
+                "queryDescs": [""],
+                "queryType": 0
+            }
+        ]
+    },
+    "OperationResponse": 
+    {
+        "savedQueries": "$Response\/TcConnector.savedQueries"
+    }
+}

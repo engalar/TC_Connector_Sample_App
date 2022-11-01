@@ -1,0 +1,16 @@
+{
+    "ServiceOperation": "Workflow-2008-06-Workflow\/getAllTasks",
+    "InputType":        "TcConnector.GetAllTasksInput",
+    "ResponseType":     "TcConnector.GetAllTasksResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"process": "$Input\/TcConnector.process",
+		"state": "$Input\/state"
+		
+    },
+    "OperationResponse": 
+    {
+        "allTasks": "$Response\/TcConnector.allTasks"
+    }
+}

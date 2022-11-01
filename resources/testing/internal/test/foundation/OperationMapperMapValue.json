@@ -1,0 +1,15 @@
+{
+    "ServiceOperation": "Test-2007-01-TestService\/fooOperation",
+    "InputType":        "",
+    "ResponseType":     "TcConnector.CreateRelationResponse",
+    "ObjectMapping":    "ImanRelation=TcConnector.ImanRelation",
+    "OperationInput":   {},
+    "OperationResponse": 
+    {
+        "output": [
+            {
+                "relation": ["$Response\/TcConnector.relation"]
+            }
+        ]
+    }
+}

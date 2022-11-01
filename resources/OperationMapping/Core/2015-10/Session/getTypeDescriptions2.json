@@ -1,0 +1,18 @@
+{
+    "ServiceOperation": "Core-2015-10-Session\/getTypeDescriptions2",
+    "InputType":        "ODataMapping.GetTypeDescriptions2Input",
+    "ResponseType":     "ODataMapping.GetTypeDescriptions2Response",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"typeNames": "$Input\/TypeNames;AttributeAsArray",
+	    "options":
+		{
+			"SampleStringKey": []
+		}
+    },
+    "OperationResponse": 
+    {
+        "types":"$Response\/ODataMapping.types_GetTypeDescriptions2Response"
+    }
+}

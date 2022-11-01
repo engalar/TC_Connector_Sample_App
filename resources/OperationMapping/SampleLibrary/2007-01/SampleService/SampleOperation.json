@@ -1,0 +1,30 @@
+{
+    "ServiceOperation": "SampleLibrary-2007-01-SampleService\/sampleOperation",
+    "InputType":        "TcConnection.CreateBOMWindow",
+    "ResponseType":     "TcConnection.BOMLine",
+    "ObjectMapping":    "BOMLine=TcConnection.BOMLine;ItemRevsion=TcConnection.ItemRev",
+    "OperationInput":
+    {
+        "info":[
+        {
+            "clientId": "",
+            "item": "",
+            "itemRev": "$Input\/TcConnection.itemRev",
+            "bomView": "",
+            "revRuleConfigInfo": 
+            {
+                "clientId": "",
+				"revRule": "$Input\/TcConnection.revisionRule",
+                "objectForConfigure": "",
+                "activeAssemblyArrangement": ""
+            }
+        }]
+    },
+    "OperationResponse": 
+    {
+        "output":[
+        {
+            "bomline": "$Response"
+        }]
+    }
+}

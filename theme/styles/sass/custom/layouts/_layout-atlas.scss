@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Atlas layout
+   
+   The core stucture of all atlas layouts
+========================================================================== */
+
+.layout-atlas {
+    background: $brand-gradient;
+
+    .region-content {
+        background: $bg-color;
+        margin: 0 8px 0 0;
+        border-radius: 3px 3px 0 0;
+    }
+
+    // Sidebar
+    .region-sidebar {
+        background-color: $navsidebar-bg;
+
+        .mx-navigationtree .navbar-inner>ul>li>a {
+            padding: 0 12px;
+
+            .glyphicon {
+                margin-right: 10px;
+            }
+        }
+
+        .toggle-btn {
+            border-color: transparent;
+            border-radius: 0;
+            background: transparent;
+        }
+    }
+
+    // Topbar
+    .region-topbar {
+        .region-topbar-layout-grid {
+            padding: 0 8px 0;
+            .topbar-header-container {
+                margin: 0 0 0 -8px;
+                .topbar-container {
+                    padding: 0;
+                }
+            }
+        }
+
+        &::before {
+            background-color: transparent;
+        }
+
+        .navbar-brand {
+            width: 100%;
+            display: flex;
+
+            .topbar-page-title {
+                flex: 1 1 auto;
+            }
+
+            img {
+                align-self: center;
+            }
+
+            .topbar-page-title {
+                margin: 0;
+                font-weight: normal;
+                color: $Siemens_Snow;
+                display: inline-block;
+            }
+        }
+
+        .tagline-container {
+            .mendix-tagline {
+                color: $Siemens_Snow;
+                font-size: 10px;
+            }
+
+            .mendix-tagline-mendix {
+                font-weight: 600;
+                color: $Siemens_Snow;
+                font-size: 10px;
+                margin-left: 4px;
+            }
+        }
+    }
+}

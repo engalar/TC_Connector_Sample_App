@@ -1,0 +1,368 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?unsdme') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?unsdme') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?unsdme##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pl-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pl-icon-cmdBuildingBlocks16 {
+  &:before {
+    content: $pl-icon-cmdBuildingBlocks16; 
+  }
+}
+.pl-icon-cmdLayout16 {
+  &:before {
+    content: $pl-icon-cmdLayout16; 
+  }
+}
+.pl-icon-cmdPageTemplate16 {
+  &:before {
+    content: $pl-icon-cmdPageTemplate16; 
+  }
+}
+.pl-icon-cmdParts24 {
+  &:before {
+    content: $pl-icon-cmdParts24; 
+  }
+}
+.pl-icon-cmdWidgets16 {
+  &:before {
+    content: $pl-icon-cmdWidgets16; 
+  }
+}
+.pl-icon-cmdFile16 {
+  &:before {
+    content: $pl-icon-cmdFile16; 
+  }
+}
+.pl-icon-cmdSettings16 {
+  &:before {
+    content: $pl-icon-cmdSettings16; 
+  }
+}
+.pl-icon-cmdApproved24 {
+  &:before {
+    content: $pl-icon-cmdApproved24; 
+  }
+}
+.pl-icon-cmdClarification24 {
+  &:before {
+    content: $pl-icon-cmdClarification24; 
+  }
+}
+.pl-icon-cmdPending24 {
+  &:before {
+    content: $pl-icon-cmdPending24; 
+  }
+}
+.pl-icon-cmdRejected24 {
+  &:before {
+    content: $pl-icon-cmdRejected24; 
+  }
+}
+.pl-icon-cmdApprovedWithQuestion24 {
+  &:before {
+    content: $pl-icon-cmdApprovedWithQuestion24; 
+  }
+}
+.pl-icon-cmdSave24 {
+  &:before {
+    content: $pl-icon-cmdSave24; 
+  }
+}
+.pl-icon-cmdTrash24 {
+  &:before {
+    content: $pl-icon-cmdTrash24; 
+  }
+}
+.pl-icon-cmdAdd24 {
+  &:before {
+    content: $pl-icon-cmdAdd24; 
+  }
+}
+.pl-icon-cmdAdministrator24 {
+  &:before {
+    content: $pl-icon-cmdAdministrator24; 
+  }
+}
+.pl-icon-cmdAge24 {
+  &:before {
+    content: $pl-icon-cmdAge24; 
+  }
+}
+.pl-icon-cmdAttach24 {
+  &:before {
+    content: $pl-icon-cmdAttach24; 
+  }
+}
+.pl-icon-cmdBrowser24 {
+  &:before {
+    content: $pl-icon-cmdBrowser24; 
+  }
+}
+.pl-icon-cmdBuildTested24 {
+  &:before {
+    content: $pl-icon-cmdBuildTested24; 
+  }
+}
+.pl-icon-cmdDelete24 {
+  &:before {
+    content: $pl-icon-cmdDelete24; 
+  }
+}
+.pl-icon-cmdChevron24 {
+  &:before {
+    content: $pl-icon-cmdChevron24; 
+  }
+}
+.pl-icon-cmdChevronDown24 {
+  &:before {
+    content: $pl-icon-cmdChevronDown24; 
+  }
+}
+.pl-icon-cmdChevronLeft24 {
+  &:before {
+    content: $pl-icon-cmdChevronLeft24; 
+  }
+}
+.pl-icon-cmdChevronUp24 {
+  &:before {
+    content: $pl-icon-cmdChevronUp24; 
+  }
+}
+.pl-icon-cmdCloseLite24 {
+  &:before {
+    content: $pl-icon-cmdCloseLite24; 
+  }
+}
+.pl-icon-cmdComment24 {
+  &:before {
+    content: $pl-icon-cmdComment24; 
+  }
+}
+.pl-icon-cmdDashboard24 {
+  &:before {
+    content: $pl-icon-cmdDashboard24; 
+  }
+}
+.pl-icon-cmdDate24 {
+  &:before {
+    content: $pl-icon-cmdDate24; 
+  }
+}
+.pl-icon-cmdDemographics24 {
+  &:before {
+    content: $pl-icon-cmdDemographics24; 
+  }
+}
+.pl-icon-cmdDeviceTypes24 {
+  &:before {
+    content: $pl-icon-cmdDeviceTypes24; 
+  }
+}
+.pl-icon-cmdDownload24 {
+  &:before {
+    content: $pl-icon-cmdDownload24; 
+  }
+}
+.pl-icon-cmdEdit24 {
+  &:before {
+    content: $pl-icon-cmdEdit24; 
+  }
+}
+.pl-icon-cmdExport24 {
+  &:before {
+    content: $pl-icon-cmdExport24; 
+  }
+}
+.pl-icon-cmdFilter24 {
+  &:before {
+    content: $pl-icon-cmdFilter24; 
+  }
+}
+.pl-icon-cmdGeneral24 {
+  &:before {
+    content: $pl-icon-cmdGeneral24; 
+  }
+}
+.pl-icon-cmdGuide24 {
+  &:before {
+    content: $pl-icon-cmdGuide24; 
+  }
+}
+.pl-icon-cmdHelp24 {
+  &:before {
+    content: $pl-icon-cmdHelp24; 
+  }
+}
+.pl-icon-cmdHome24 {
+  &:before {
+    content: $pl-icon-cmdHome24; 
+  }
+}
+.pl-icon-cmdHoursPerWeek24 {
+  &:before {
+    content: $pl-icon-cmdHoursPerWeek24; 
+  }
+}
+.pl-icon-cmdIndustry24 {
+  &:before {
+    content: $pl-icon-cmdIndustry24; 
+  }
+}
+.pl-icon-cmdInfo24 {
+  &:before {
+    content: $pl-icon-cmdInfo24; 
+  }
+}
+.pl-icon-cmdLock24 {
+  &:before {
+    content: $pl-icon-cmdLock24; 
+  }
+}
+.pl-icon-cmdLogout24 {
+  &:before {
+    content: $pl-icon-cmdLogout24; 
+  }
+}
+.pl-icon-cmdMail24 {
+  &:before {
+    content: $pl-icon-cmdMail24; 
+  }
+}
+.pl-icon-cmdMailInvite24 {
+  &:before {
+    content: $pl-icon-cmdMailInvite24; 
+  }
+}
+.pl-icon-cmdMenu24 {
+  &:before {
+    content: $pl-icon-cmdMenu24; 
+  }
+}
+.pl-icon-cmdMinus24 {
+  &:before {
+    content: $pl-icon-cmdMinus24; 
+  }
+}
+.pl-icon-cmdMore24 {
+  &:before {
+    content: $pl-icon-cmdMore24; 
+  }
+}
+.pl-icon-cmdNote24 {
+  &:before {
+    content: $pl-icon-cmdNote24; 
+  }
+}
+.pl-icon-cmdOperatingSystem24 {
+  &:before {
+    content: $pl-icon-cmdOperatingSystem24; 
+  }
+}
+.pl-icon-cmdOptions24 {
+  &:before {
+    content: $pl-icon-cmdOptions24; 
+  }
+}
+.pl-icon-cmdPlay24 {
+  &:before {
+    content: $pl-icon-cmdPlay24; 
+  }
+}
+.pl-icon-cmdPlus24 {
+  &:before {
+    content: $pl-icon-cmdPlus24; 
+  }
+}
+.pl-icon-cmdProductLines24 {
+  &:before {
+    content: $pl-icon-cmdProductLines24; 
+  }
+}
+.pl-icon-cmdRemove24 {
+  &:before {
+    content: $pl-icon-cmdRemove24; 
+  }
+}
+.pl-icon-cmdShow24 {
+  &:before {
+    content: $pl-icon-cmdShow24; 
+  }
+}
+.pl-icon-cmdSignout24 {
+  &:before {
+    content: $pl-icon-cmdSignout24; 
+  }
+}
+.pl-icon-cmdStatementGroups24 {
+  &:before {
+    content: $pl-icon-cmdStatementGroups24; 
+  }
+}
+.pl-icon-cmdTask24 {
+  &:before {
+    content: $pl-icon-cmdTask24; 
+  }
+}
+.pl-icon-cmdTest24 {
+  &:before {
+    content: $pl-icon-cmdTest24; 
+  }
+}
+.pl-icon-cmdTestCreate24 {
+  &:before {
+    content: $pl-icon-cmdTestCreate24; 
+  }
+}
+.pl-icon-cmdTimesPerWeek24 {
+  &:before {
+    content: $pl-icon-cmdTimesPerWeek24; 
+  }
+}
+.pl-icon-cmdTrendChart24 {
+  &:before {
+    content: $pl-icon-cmdTrendChart24; 
+  }
+}
+.pl-icon-cmdUnlock24 {
+  &:before {
+    content: $pl-icon-cmdUnlock24; 
+  }
+}
+.pl-icon-cmdUseCase24 {
+  &:before {
+    content: $pl-icon-cmdUseCase24; 
+  }
+}
+.pl-icon-cmdUser24 {
+  &:before {
+    content: $pl-icon-cmdUser24; 
+  }
+}
+.pl-icon-cmdUserRole24 {
+  &:before {
+    content: $pl-icon-cmdUserRole24; 
+  }
+}
+

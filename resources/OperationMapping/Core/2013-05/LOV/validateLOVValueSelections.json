@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Core-2013-05-LOV/validateLOVValueSelections",
+   "OperationResponse" : {
+      "propHasValidValues" : "bool",
+      "serviceData" : "IServiceData",
+      "dependentPropNames" : "String[]",
+      "updatedPropValues" : {
+         "propInternalValues" : {
+            "SampleKeyString" : "String[]"
+         },
+         "uid" : "String",
+         "propInternalValueTypes" : {
+            "SampleKeyString" : "int"
+         },
+         "propDisplayValues" : {
+            "SampleKeyString" : "String[]"
+         },
+         "childRows" : "Teamcenter::Soa::Core::_2013_05::LOV::LOVValueRow[]"
+      }
+   },
+   "OperationInput" : {
+      "lovInput" : {
+         "operationName" : "String",
+         "owningObject" : "IModelObject",
+         "boName" : "String",
+         "propertyValues" : {
+            "SampleKeyString" : "String[]"
+         }
+      },
+      "propName" : "String",
+      "uidOfSelectedRows" : "String[]"
+   }
+}

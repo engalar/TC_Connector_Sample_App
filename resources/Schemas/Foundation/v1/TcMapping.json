@@ -1,0 +1,106 @@
+{
+  "externalReferences": [],
+  "dataServices": [
+    {
+      "schemaNameSpace": "FOUNDATION_SCHEMA_V_1_0",
+      "entityInfo": [
+        {
+          "oDataEntityName": "FOUNDATION_SCHEMA_V_1_0.Item",
+          "teamcenterTypeName": "Item",
+          "exposeObject": true,
+          "attributeInfo": [
+            {
+              "attributeName": "Id",
+              "teamcenterAttrName": "item_id",
+              "attributeDataType": "String",
+              "isCollection": false,
+              "isKeyProp": true,
+              "inherited": false
+            },
+            {
+              "attributeName": "Name",
+              "teamcenterAttrName": "object_name",
+              "attributeDataType": "String",
+              "isCollection": false,
+              "isKeyProp": false,
+              "inherited": false
+            },
+            {
+              "attributeName": "Description",
+              "teamcenterAttrName": "object_desc",
+              "attributeDataType": "String",
+              "isCollection": false,
+              "isKeyProp": false,
+              "inherited": false
+            },
+            {
+              "attributeName": "Revisions",
+              "teamcenterAttrName": "revision_list",
+              "attributeDataType": "Reference",
+              "referenceType": "FOUNDATION_SCHEMA_V_1_0.ItemRevision",
+              "isCollection": true,
+              "isKeyProp": false,
+              "inherited": false
+            }
+          ]
+        },
+        {
+          "oDataEntityName": "FOUNDATION_SCHEMA_V_1_0.ItemRevision",
+          "teamcenterTypeName": "ItemRevision",
+          "exposeObject": true,
+          "attributeInfo": [
+            {
+              "attributeName": "Name",
+              "teamcenterAttrName": "object_name",
+              "attributeDataType": "String",
+              "isCollection": false,
+              "isKeyProp": false,
+              "inherited": false
+            },
+            {
+              "attributeName": "Description",
+              "teamcenterAttrName": "object_desc",
+              "attributeDataType": "String",
+              "isCollection": false,
+              "isKeyProp": false,
+              "inherited": false
+            },
+            {
+              "attributeName": "Id",
+              "teamcenterAttrName": "item_id",
+              "attributeDataType": "String",
+              "isCollection": false,
+              "isKeyProp": true,
+              "inherited": false
+            },
+            {
+              "attributeName": "Version",
+              "teamcenterAttrName": "item_revision_id",
+              "attributeDataType": "String",
+              "isCollection": false,
+              "isKeyProp": true,
+              "inherited": false
+            },
+            {
+              "attributeName": "Item",
+              "teamcenterAttrName": "items_tag",
+              "attributeDataType": "Reference",
+              "referenceType": "FOUNDATION_SCHEMA_V_1_0.Item",
+              "isCollection": false,
+              "isKeyProp": false,
+              "inherited": false
+            },
+            {
+              "attributeName": "DateAssignment",
+              "teamcenterAttrName": "last_mod_date",
+              "attributeDataType": "Date",
+              "isCollection": false,
+              "isKeyProp": false,
+              "inherited": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

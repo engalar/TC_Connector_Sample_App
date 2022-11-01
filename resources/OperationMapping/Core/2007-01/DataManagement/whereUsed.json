@@ -1,0 +1,21 @@
+{
+	"ServiceOperation": "Core-2007-01-DataManagement/whereUsed",
+	"InputType": "TcConnector.WhereUsedInput",
+	"ResponseType": "TcConnector.WhereUsedResponse",
+	"ObjectMapping": "",
+	"OperationInput": 
+	{
+		"objects": ["$Input\/TcConnector.objects"],
+		"numLevels": "$Input\/numLevels",
+		"whereUsedPrecise": "$Input\/whereUsedPrecise",
+		"rule": "$Input\/TcConnector.rule"
+	},
+	"OperationResponse": 
+	{
+		"output": 
+		[{
+			"inputObject": "$Response\/TcConnector.ModelObject_WhereUsedResponse",
+			"info": "$Response\/TcConnector.WhereUsedResponseInfo_WhereUsedResponse"
+		}]
+	}
+}

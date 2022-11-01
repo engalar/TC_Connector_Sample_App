@@ -1,0 +1,30 @@
+{
+    "ServiceOperation": "Test-2007-01-TestService\/fooOperation",
+    "InputType":        "Testing.Test_CreateBOMWindow",
+    "ResponseType":     "TcConnector.BOMLine",
+    "ObjectMapping":    "BOMLine=TcConnector.BOMLine;ItemRevision=TcConnector.ItemRevision",
+    "OperationInput":
+    {
+        "info":[
+        {
+            "clientId": "$Input\/getId()",
+            "item": "$Input\/Testing.itemRev\/item_id",
+            "itemRev": "$Input\/Testing.itemRev",
+            "bomView": "",
+            "revRuleConfigInfo": 
+            {
+                "clientId": "$Input\/getId()",
+				"revRule": "$Input\/Testing.revisionRule",
+                "objectForConfigure": "",
+                "activeAssemblyArrangement": ""
+            }
+        }]
+    },
+    "OperationResponse": 
+    {
+        "output":[
+        {
+            "bomline": "$Response"
+        }]
+    }
+}

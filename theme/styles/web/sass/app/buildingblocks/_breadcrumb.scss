@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Breadcrumbs - PLM Edit
+
+========================================================================== */
+
+//== Elements
+//-------------------------------------------------------------------------------------------------------------------
+// Default Link Color
+//
+.breadcrumb-item {
+    display: inline-block;
+    margin: 0;
+    a {
+        color: $link-color;
+        text-decoration: none;
+        outline-color: transparent;
+        &:hover {
+            color: $link-hover-color;
+        }
+        &:active {
+            color: $link-active-color;
+        }
+    }
+    &:last-child {
+        color: $font-color-default;
+        a {
+            text-decoration: none;
+            &:hover,
+            &:active {
+                color: $font-color-default;
+            }
+        }
+    }
+}
+
+//== Elements
+//-------------------------------------------------------------------------------------------------------------------//
+.breadcrumb-item + .breadcrumb-item {
+    &::before {
+        content: ">";
+        color: $PL_Black_4;
+    }
+}
+
+//== Variations 
+//-------------------------------------------------------------------------------------------------------------------//
+.breadcrumb-large {
+    font-size: $font-size-extralarge;
+}
+
+.breadcrumb-underline {
+    padding-bottom: $gutter-size;
+    border-bottom: 1px solid $border-color-default;
+    a:hover,
+    a:active {
+        text-decoration: underline;
+    }
+    &:last-child {
+        a:hover,
+        a:active {
+            text-decoration: none;
+        }
+    }
+}

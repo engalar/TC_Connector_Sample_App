@@ -1,0 +1,43 @@
+{
+    "ServiceOperation": "Cad-2007-01-StructureManagement\/createBOMWindows",
+    "InputType":        "TcConnector.CreateBomWindowInput",
+    "ResponseType":     "TcConnector.CreateBomWindowResponse",
+    "ObjectMapping":    "",
+    "OperationInput":
+    {
+        "info":[
+        {
+            "clientId": "CreateBOMWindows",
+            "item": "",
+            "itemRev": "$Input\/TcConnector.itemRev__BOMWindow",
+            "bomView": "",
+            "revRuleConfigInfo": 
+            {
+					"clientId": "",
+					"revRule":  "$Input\/TcConnector.revRule__BOMWindow",
+					"props": {
+						"unitNo": -1,
+						"date": "",
+						"today": true,
+						"endItem": "",
+						"endItemRevision": "",
+						"overrideFolders":
+						[{
+								"ruleEntry": "",
+								"folder": ""
+						}]
+					}
+				},
+				"objectForConfigure": "",
+				"activeAssemblyArrangement":""
+        }]
+    },
+    "OperationResponse": 
+    {
+        "output":[
+        {
+            "bomLine": "$Response\/TcConnector.bomLine__BOMWindow",
+			"bomWindow": "$Response\/TcConnector.bomWindow__BOMWindow"
+        }]
+    }
+}

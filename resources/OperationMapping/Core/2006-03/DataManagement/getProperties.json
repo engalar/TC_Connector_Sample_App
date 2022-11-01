@@ -1,0 +1,14 @@
+{
+    "ServiceOperation": "Core-2006-03-DataManagement\/getProperties",
+    "InputType": "TcConnector.ListOfModelObject",
+    "ResponseType": "TcConnector.ServiceResponse",
+    "ObjectMapping": "",
+    "OperationInput": {
+        "objects": [
+               "$Input\/TcConnector.ListOfModelObjects"
+               ],
+        "attributes": [
+        ]
+    },
+    "OperationResponse": "$Response\/TcConnector.ResponseData"
+}

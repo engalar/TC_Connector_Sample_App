@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="javasource"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/Mendix/9.6.0.27784/runtime/bundles/com.mendix.json.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Mendix/9.6.0.27784/runtime/bundles/com.mendix.logging-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Mendix/9.6.0.27784/runtime/bundles/com.mendix.m2ee-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Mendix/9.6.0.27784/runtime/bundles/com.mendix.public-api.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Mendix/9.6.0.27784/runtime/bundles/javax.servlet-api.servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Mendix/9.6.0.27784/runtime/bundles/javax.websocket-api.websocket.jar"/>
+	<classpathentry kind="lib" path="userlib/com.mendix.viewer3d.jtreader-0.1.0.jar"/>
+	<classpathentry kind="lib" path="userlib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="userlib/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="userlib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="userlib/flatbuffers-java-1.10.0.jar"/>
+	<classpathentry kind="lib" path="userlib/fmsutil.jar"/>
+	<classpathentry kind="lib" path="userlib/fscjavaclientproxy.jar"/>
+	<classpathentry kind="lib" path="userlib/hamcrest-2.2.jar"/>
+	<classpathentry kind="lib" path="userlib/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="userlib/httpclient5-5.0.3.jar"/>
+	<classpathentry kind="lib" path="userlib/httpcore5-5.0.3.jar"/>
+	<classpathentry kind="lib" path="userlib/jackson-annotations-2.11.3.jar"/>
+	<classpathentry kind="lib" path="userlib/jackson-annotations-2.13.2.jar"/>
+	<classpathentry kind="lib" path="userlib/jackson-core-2.11.3.jar"/>
+	<classpathentry kind="lib" path="userlib/jackson-core-2.13.2.jar"/>
+	<classpathentry kind="lib" path="userlib/jackson-databind-2.11.3.jar"/>
+	<classpathentry kind="lib" path="userlib/jackson-databind-2.13.2.2.jar"/>
+	<classpathentry kind="lib" path="userlib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="userlib/junit-4.13.1.jar"/>
+	<classpathentry kind="lib" path="userlib/kotlin-stdlib-1.4.10.jar"/>
+	<classpathentry kind="lib" path="userlib/kotlin-stdlib-1.6.10.jar"/>
+	<classpathentry kind="lib" path="userlib/log4j-api-2.17.1.jar"/>
+	<classpathentry kind="lib" path="userlib/log4j-core-2.17.1.jar"/>
+	<classpathentry kind="lib" path="userlib/org.apache.commons.io-2.3.0.jar"/>
+	<classpathentry kind="lib" path="userlib/org.apache.commons.lang3.jar"/>
+	<classpathentry kind="lib" path="userlib/org.apache.httpcomponents.httpclient_4.4.1.jar"/>
+	<classpathentry kind="lib" path="userlib/org.apache.httpcomponents.httpcore_4.4.1.jar"/>
+	<classpathentry kind="lib" path="userlib/spring-core-5.2.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="userlib/teamcenter_sso_applib.jar"/>
+	<classpathentry kind="lib" path="userlib/teamcenter_sso_common.jar"/>
+	<classpathentry kind="lib" path="userlib/teamcenter_sso_ldapcustom.jar"/>
+	<classpathentry kind="lib" path="userlib/teamcenter_sso_webtoolkit.jar"/>
+	<classpathentry kind="lib" path="userlib/ws-commons-util-1.0.2.jar"/>
+	<classpathentry kind="lib" path="userlib/xmlrpc-client-3.1.3.jar"/>
+	<classpathentry kind="lib" path="userlib/xmlrpc-common-3.1.3.jar"/>
+	<classpathentry kind="lib" path="userlib/xmlrpc-server-3.1.3.jar"/>
+	<classpathentry kind="output" path="deployment/run/bin"/>
+</classpath>

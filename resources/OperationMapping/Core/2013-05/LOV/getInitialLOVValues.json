@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Core-2013-05-LOV/getInitialLOVValues",
+   "InputType":        "TcConnector.GetInitialLOVValuesInputEntity",
+   "ResponseType":     "TcConnector.GetLOVValuesResponse",
+   "ObjectMapping":    "",
+   "OperationResponse" : {
+      "lovValues" : "$Response\/TcConnector.lovValues",
+      "lovData" : "$Response\/TcConnector.lovData",
+      "moreValuesExist" : "$Response\/moreValuesExist"
+   },
+   "OperationInput" : {
+      "initialData" : "$Input"
+   }
+}

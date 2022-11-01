@@ -1,0 +1,14 @@
+{
+    "ServiceOperation": "Core-2013-05-DataManagement\/getSubTypeNames",
+    "InputType":        "ODataMapping.Input",
+    "ResponseType":     "ODataMapping.GetSubTypeNamesResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"inBOTypeNames": ["$Input\/ODataMapping.GetSubTypeNamesInput_2_Input"]
+    },
+    "OperationResponse": 
+    {
+        "output": "$Response\/ODataMapping.SubType_2_GetSubTypeNamesResponse_2"
+    }
+}

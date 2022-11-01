@@ -1,0 +1,25 @@
+{
+    ".QName": "http://teamcenter.com/Schemas/Core/2006-03/FileManagement.FileTicketsResponse",
+    "tickets": 
+    [
+        [ { "objectID": "wSfxduoEqd$DyB", "uid": "wSfxduoEqd$DyB", "className": "ImanFile", "type": "ImanFile" } ],
+        [ "anFmsFileTicket"  ]
+    ],
+
+    "ServiceData": {
+
+        "modelObjects": {
+            "wSfxduoEqd$DyB": 
+            { "objectID": "wSfxduoEqd$DyB", "uid": "wSfxduoEqd$DyB",  "className": "ImanFile", "type": "ImanFile",
+                "props": {
+
+                    "original_file_name": 
+                    {
+                        "dbValues": [ "Jellyfish.jpg" ],
+                        "uiValues": [ "Jellyfish.jpg" ]
+                    }
+                }
+            }
+        }
+    }
+}

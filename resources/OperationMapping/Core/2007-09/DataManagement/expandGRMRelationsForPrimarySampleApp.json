@@ -1,0 +1,28 @@
+{
+  "ServiceOperation": "Core-2007-09-DataManagement/expandGRMRelationsForPrimary",
+  "InputType": "TcConnectorSample.ExpandGRMPrimaryInput",
+  "ResponseType": "TcConnectorSample.ExpandGRMPrimaryResponse",
+  "ObjectMapping": "",
+  
+  "OperationInput": {
+    "primaryObjects": [ "$Input\/TcConnectorSample.primaryObjects/TcConnector.ListOfModelObjects" ],
+    "pref": {
+      "expItemRev": false,
+      "returnRelations": true,
+      "info": [ "$Input\/TcConnectorSample.relations" ]
+    }
+  },
+  
+  
+  
+  
+	"OperationResponse": {
+		"output": [{
+				"relationshipData": [{
+						"relationshipObjects": "$Response\/TcConnectorSample.relationshipObjects"
+					}
+				]
+			}
+		]
+	}
+}

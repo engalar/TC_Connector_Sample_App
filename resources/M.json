@@ -1,0 +1,70 @@
+'{
+	"ItemRevision": {
+		"sourceObjectInfo":
+		[{
+				"sourceObjectName": "Item",
+				"isPrimaryType": false,
+				"props": [{
+						"entityProperty": "ID",
+						"sourceProperty": "item_id",
+						"isCompoundProperty": false
+					}, {
+						"entityProperty": "Name",
+						"sourceProperty": "object_name",
+						"isCompoundProperty": false
+					}, {
+						"entityProperty": "Description",
+						"sourceProperty": "object_desc",
+						"isCompoundProperty": false
+					}
+				],
+				"level": 0
+			}, {
+				"sourceObjectName": "ItemRevision",
+				"isPrimaryType": true,
+				"props": [{
+						"entityProperty": "RevisionID",
+						"sourceProperty": "item_revision_id",
+						"isCompoundProperty": false
+					}
+				],
+				"level": 1
+			}
+		],
+		"owningModule": "TcConnector"
+	},
+	"ChangeItemRevision": {
+		"sourceObjectInfo":
+		[{
+				"sourceObjectName": "ChangeItem",
+				"isPrimaryType": false,
+				"props": [{
+						"entityProperty": "ID",
+						"sourceProperty": "item_id",
+						"isCompoundProperty": false
+					}, {
+						"entityProperty": "Name",
+						"sourceProperty": "object_name",
+						"isCompoundProperty": false
+					}, {
+						"entityProperty": "Description",
+						"sourceProperty": "object_desc",
+						"isCompoundProperty": false
+					}
+				],
+				"level": 0
+			}, {
+				"sourceObjectName": "ChangeItemRevision",
+				"isPrimaryType": true,
+				"props": [{
+						"entityProperty": "RevisionID",
+						"sourceProperty": "item_revision_id",
+						"isCompoundProperty": false
+					}
+				],
+				"level": 1
+			}
+		],
+		"owningModule": "TcConnector"
+	}
+}'

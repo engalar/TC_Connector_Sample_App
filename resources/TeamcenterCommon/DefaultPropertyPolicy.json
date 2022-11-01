@@ -1,0 +1,172 @@
+{
+    "useRefCount": false,
+    "types": [
+        {
+
+            "name": "POM_application_object",
+            "properties": [
+                {
+                    "name": "creation_date"
+                },
+                {
+                    "name": "last_mod_date"
+                },
+                {
+                    "name": "owning_user",
+                    "modifiers": [
+                        {
+                           "name": "withProperties",
+                           "Value": "true"
+                        }
+                     ]
+                },
+                {
+                    "name": "owning_group"
+                }
+            ]
+        },
+        {
+            "name": "WorkspaceObject",
+            "properties": [
+                {
+                    "name": "object_name"
+                },
+                {
+                    "name": "object_desc"
+                },
+                {
+                    "name": "object_type"
+                }
+            ]
+        },
+        {
+
+            "name": "User",
+            "properties": [
+                {
+                    "name": "person"
+                },
+                {
+                    "name": "home_folder"
+                },
+				{
+					"name": "user_projects",
+					"modifiers": [{
+						"name": "excludeUiValues",
+						"Value": "true"
+					},
+					{
+						"name": "withProperties",
+						"Value": "true"
+					}]
+				}
+            ]
+        },
+        {
+            "name": "Group",
+            "properties": [
+                {
+                    "name": "name"
+                }
+            ]
+        },
+        {
+            "name": "ItemRevision",
+            "properties": [
+                {
+                    "name": "item_revision_id"
+                },
+                {
+                    "name": "item_id"
+                },
+                {
+                    "name": "awp0ConfiguredRevision"
+                },
+                {
+                    "name": "items_tag",
+                    "modifiers": [
+                        {
+                           "name": "withProperties",
+                           "Value": "true"
+                        }
+                     ]
+                }
+            ]
+        },
+        {
+            "name": "Item",
+            "properties": [
+                {
+                    "name": "item_id"
+                }
+            ]
+        },
+        {
+            "name": "DatasetType",
+            "properties": [
+                {
+                    "name": "datasettype_name"
+                }
+            ]
+        },
+        {
+            "name": "ImanFile",
+            "properties": [
+                {
+                    "name": "file_name"
+                },
+                {
+                    "name": "original_file_name"
+                },
+                {
+                    "name": "file_ext"
+                },
+                {
+                    "name": "file_size"
+                }
+            ]
+        },
+        {
+            "name": "ImanRelation",
+            "properties": [
+                {
+                    "name": "primary_object"
+                },
+                {
+                    "name": "secondary_object"
+                }
+            ]
+        },
+        {
+            "name": "ImanQuery",
+            "properties": [
+                {
+                    "name": "query_name"
+                },
+                {
+                    "name": "query_desc"
+                }
+            ]
+        },
+        {
+            "name": "BOMLine",
+            "properties": [
+                {
+                    "name": "object_string"
+                }, 
+                {
+                    "name": "bl_quantity"
+                },
+                {
+                    "name": "bl_has_children"
+                }, 
+                {
+                    "name": "bl_rev_object_name"
+                },
+                {
+                    "name": "bl_item_item_revision"
+                }
+            ]
+        }
+    ]
+}

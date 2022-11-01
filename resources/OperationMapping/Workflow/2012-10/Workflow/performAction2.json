@@ -1,0 +1,19 @@
+{
+    "ServiceOperation": "Workflow-2012-10-Workflow\/performAction2",
+    "InputType":        "TcConnector.PerformActionInput",
+    "ResponseType":     "TcConnector.ServiceResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"task": "$Input\/TcConnector.task",
+		"action": "$Input\/action",
+		"comments": "$Input\/comments",
+		"password": "$Input\/password",
+		"supportingValue": "$Input\/supportingValue",
+		"supportingObject": "$Input\/TcConnector.supportingObject"
+    },
+    "OperationResponse": 
+    {
+        
+    }
+}

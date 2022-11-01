@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edmx:Edmx Version="4.0"
+  xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+  <edmx:Reference Uri="http://localhost/Foundation/v1/CsdlSchema.xml">
+    <edmx:Include Namespace="FOUNDATION_SCHEMA_V_1_0" Alias="FOUNDATION"></edmx:Include>
+  </edmx:Reference>
+  <edmx:DataServices>
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="CORE_APA242_SCHEMA_V_1_0">
+      <EntityType Name="Part">
+        <Key>
+          <PropertyRef Name="Id"/>
+        </Key>
+        <Property Name="Id" Type="Edm.String"></Property>
+        <Property Name="Name" Type="Edm.String"></Property>
+        <Property Name="Description" Type="Edm.String"></Property>
+        <NavigationProperty Name="Versions" Type="Collection(CORE_APA242_SCHEMA_V_1_0.PartRevision)"></NavigationProperty>
+      </EntityType>
+      <EntityType Name="PartRevision" BaseType="FOUNDATION.ItemRevision"></EntityType>
+      <EntityContainer Name="CORE_APA242_SCHEMA_V_1_0__CONTAINER">
+        <EntitySet Name="Parts" EntityType="CORE_APA242_SCHEMA_V_1_0.Part">
+          <NavigationPropertyBinding Path="Versions" Target="PartRevisions"/>
+        </EntitySet>
+        <EntitySet Name="ItemRevisions" EntityType="FOUNDATION.ItemRevision">
+          <NavigationPropertyBinding Path="Item" Target="Items"/>
+        </EntitySet>
+        <EntitySet Name="Items" EntityType="FOUNDATION.Item">
+          <NavigationPropertyBinding Path="Revisions" Target="ItemRevisions"/>
+        </EntitySet>
+        <EntitySet Name="PartRevisions" EntityType="CORE_APA242_SCHEMA_V_1_0.PartRevision">
+          <NavigationPropertyBinding Path="Item" Target="Items"/>
+        </EntitySet>
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

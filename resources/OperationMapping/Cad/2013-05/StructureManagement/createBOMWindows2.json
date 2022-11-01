@@ -1,0 +1,54 @@
+{
+    "ServiceOperation": "Cad-2013-05-StructureManagement/createBOMWindows2",
+    "InputType":        "TcConnector.CreateBomWindowInput",
+    "ResponseType":     "TcConnector.CreateBomWindowResponse",
+    "ObjectMapping":    "",
+    "OperationInput":
+    {
+        "info":[
+        {
+            "clientId": "CreateBOMWindows",
+            "item": "",
+            "itemRev": "$Input\/TcConnector.itemRev__BOMWindow",
+            "bomView": "",
+            "revRuleConfigInfo": 
+            {
+					"clientId": "",
+					"revRule":  "$Input\/TcConnector.revRule__BOMWindow",
+					"props": {
+						"unitNo": -1,
+						"date": "",
+						"today": true,
+						"endItem": "",
+						"endItemRevision": "",
+						"overrideFolders":
+						[{
+								"ruleEntry": "",
+								"folder": ""
+						}]
+					}
+				},
+				"objectsForConfigure": ["$Input\/TcConnector.objectsForConfigure"],
+				"activeAssemblyArrangement":"",
+				"configContext":"$Input\/TcConnector.configContext",
+				"bomWinPropFlagMap":
+				{
+					"show_unconfigured_variants": "$Input\/TcConnector.bomWinPropFlagMap\/show_unconfigured_variants",
+					"show_unconfigured_changes": "$Input\/TcConnector.bomWinPropFlagMap\/show_unconfigured_changes",
+					"show_suppressed_occurrences": "$Input\/TcConnector.bomWinPropFlagMap\/show_suppressed_occurrences",
+					"is_packed_by_default": "$Input\/TcConnector.bomWinPropFlagMap\/is_packed_by_default",
+					"show_out_of_context_lines": "$Input\/TcConnector.bomWinPropFlagMap\/show_out_of_context_lines",
+					"fnd0show_uncnf_occ_eff": "$Input\/TcConnector.bomWinPropFlagMap\/fnd0show_uncnf_occ_eff",
+					"fnd0bw_in_cv_cfg_to_load_md": "$Input\/TcConnector.bomWinPropFlagMap\/fnd0bw_in_cv_cfg_to_load_md",
+				}
+        }]
+    },
+    "OperationResponse": 
+    {
+        "output":[
+        {
+            "bomLine": "$Response\/TcConnector.bomLine__BOMWindow",
+			"bomWindow": "$Response\/TcConnector.bomWindow__BOMWindow"
+        }]
+    }
+}

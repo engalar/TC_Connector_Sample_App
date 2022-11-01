@@ -1,0 +1,22 @@
+/* ==========================================================================
+   Tab Container - PLM Edit
+
+   Default Mendix Tab Container Widget. Tab containers are used to show information categorized into multiple tab pages.
+   This can be very useful if the amount of information that has to be displayed is larger than the amount of space on the screen
+========================================================================== */
+
+// Style with lines
+.tab-lined.mx-tabcontainer {
+    & > .mx-tabcontainer-tabs {
+        border: none;
+        li {
+            margin-right: 16px;
+            & > a {
+                padding: 8px 0;
+                &:active {
+                    color: $tabs-color-pressed;
+                }
+            }
+        }
+    }
+}

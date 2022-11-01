@@ -1,0 +1,16 @@
+{
+    "ServiceOperation": "Query-2014-11-Finder\/performSearch",
+    "InputType": "TcConnector.SearchInput",
+    "ResponseType": "TcConnector.SearchResponse",
+    "ObjectMapping": "",
+    "OperationInput": 
+    {
+        "searchInput": "$Input;DateFormat=dd-MMM-yyyy HH:MM;ignoreNull"
+    },
+    "OperationResponse":
+    {
+        "searchResults": "$Response\/TcConnector.searchResults",
+        "totalFound": "$Response\/totalFound",
+        "totalLoaded": "$Response\/totalLoaded"
+    }
+}

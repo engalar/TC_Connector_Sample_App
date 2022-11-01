@@ -1,0 +1,46 @@
+/* ==========================================================================
+   Navigation - PLM Edit
+
+   Default Mendix Navigation Bar
+========================================================================== */
+
+.mx-navbar {
+    /* Navigation item */
+    ul.nav {
+        &>li.mx-navbar-item>a {
+            &:hover {
+                color: $navigation-color-hover;
+                background-color: $navigation-bg-hover;
+            }
+            &:active {
+                color: $navigation-color-active;
+                background-color: $navigation-bg-active;
+            }
+        }
+        .dropdown-menu.mx-navbar-submenu {
+            padding: 0;
+            margin: 4px 0 0;
+            border-color: $navigation-sub-border-color;
+            border-radius: $border-radius-default;
+            box-shadow: $navigation-sub-box-shadow;
+            .mx-navbar-subitem a {
+                font-size: $navigation-font-size;
+                padding: 4px 16px;
+                &:hover,
+                &:focus,
+                &.active {
+                    color: $navigation-sub-color-hover;
+                    background-color: $navigation-sub-bg-hover;
+                }
+                &.active {
+                    color: $navigation-sub-color-selected;
+                    background-color: $navigation-sub-bg-selected;
+                }
+                &:active {
+                    color: $navigation-sub-color-active;
+                    background-color: $navigation-sub-bg-active;
+                }
+            }
+        }
+    }
+}

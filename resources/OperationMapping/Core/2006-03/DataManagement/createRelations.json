@@ -1,0 +1,22 @@
+{
+    "ServiceOperation": "Core-2006-03-DataManagement\/createRelations",
+    "InputType":        "TcConnector.CreateRelationInput",
+    "ResponseType":     "TcConnector.CreateRelationResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+        "input": [
+            {
+                "clientId": "CreateRelation",
+                "relationType": "$Input\/relationType",
+                "primaryObject": "$Input\/TcConnector.primaryObject",
+                "secondaryObject": "$Input\/TcConnector.secondaryObject"
+            }
+        ]
+    },
+    "OperationResponse": 
+    {
+    }
+}
+
+

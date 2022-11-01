@@ -1,0 +1,32 @@
+{
+    "ServiceOperation": "Cad-2008-06-StructureManagement\/expandPSOneLevel",
+    "InputType":        "TcConnector.ExpandPSOneLevel2Input",
+    "ResponseType":     "TcConnector.ExpandPSOneLevel2Response",
+    "ObjectMapping":    "",
+    "OperationInput":
+    {
+		"info":
+		{
+			"parentBomLines": ["$Input\/TcConnector.parentBomLines__"],
+			"excludeFilter": "None2"
+		},
+		"pref":
+		{
+			"expItemRev": true,
+			"info":
+			[{
+				"relationName": "$Input\/RelationName",
+				"relatedObjAndNamedRefs":
+				[{
+					"objectTypeName": "$Input\/ObjectTypeName"
+				}],
+				"namedRefHandler": "$Input\/NamedRefHandler"
+			}],
+			"includeOccurrenceTypes": [],
+			"excludeOccurrenceTypes": []
+		}
+	},
+    "OperationResponse": "$Response"
+}
+
+

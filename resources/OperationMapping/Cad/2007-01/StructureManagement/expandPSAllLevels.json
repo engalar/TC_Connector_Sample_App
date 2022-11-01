@@ -1,0 +1,26 @@
+{
+    "ServiceOperation": "Cad-2007-01-StructureManagement\/expandPSAllLevels",
+    "InputType":        "TcConnector.ExpandPSOneLevelInput",
+    "ResponseType":     "TcConnector.ExpandPSAllLevelsResponse",
+    "ObjectMapping":    "",
+    "OperationInput":
+    {
+		"input": {
+			"parentBomLines": ["$Input\/TcConnector.parentBomLines"],
+			"excludeFilter": "None"
+
+		},
+		"pref": {
+			"expItemRev": true,
+			"info":
+			[{
+				"relationName": "$Input\/RelationName",
+				"relationTypeNames": "$Input\/TcConnector.objectTypeNames__ExpandPS\/ObjectTypeNames;AttributeAsArray;ignoreNull"
+			}]
+		}
+	},
+    "OperationResponse": 
+    {
+        "output": "$Response\/TcConnector.ExpandAllLevelsOutput"
+    }
+}
